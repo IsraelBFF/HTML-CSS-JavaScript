@@ -1,0 +1,42 @@
+*{
+    background-color: antiquewhite;
+    margin: .5%;
+}
+h1{
+    text-align: center;
+    border:0.5px solid ;
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 20px;
+    text-indent: 40px;
+    line-height: 1;
+}
+
+#fundo-teste{
+    height: 400px;
+    background: url(../img/pexels-alinaskazka-28882396.jpg) center gray no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    border-radius:15px;
+}
+
+footer{
+    margin-top: 40px;
+}
+
+a{
+    margin-left: 50%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: gray;
+}
