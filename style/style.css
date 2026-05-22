@@ -35,8 +35,8 @@ footer{
     margin-top: 40px;
 }
 
-a{
-    margin-left: 50%;
+footer a{
+    margin-left: 45%;
     background-color: black;
     color: white;
     padding: 20px;
@@ -44,6 +44,60 @@ a{
     text-decoration: none;
 }
 
-a:hover{
+footer a:hover{
     background-color: gray;
+}
+
+footer a#principal{
+    margin-left: 40%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+footer a#principal:hover{
+    background-color: gray;
+}
+
+footer a.botao1{
+    background-color: rgb(164, 3, 3);
+    margin-left: 3%;
+    border: 3px solid black;
+}
+
+footer a.botao1:hover{
+    background-color: red;
+    padding: 25px;
+    border: 5px solid black;
+}
+
+a#l1{
+    text-decoration: none;
+    background-color: rgb(1, 92, 1);
+    color: white;
+    padding: 10px;
+    border: 4px solid yellow;
+}
+
+a#l1:hover{
+    background: rgb(2, 207, 2);
+    border-color: rgb(174, 174, 3);
+    padding: 15px;
+}
+
+a#l2{
+    border:  5px double blue;
+    padding: 10px;
+    text-decoration: none; 
+    font-weight: bold;
+    background-color: white;
+}
+
+a#l2:hover{
+    padding: 8px;
+    background: blue;
+    color: white;
+    font-weight: normal;
 }
