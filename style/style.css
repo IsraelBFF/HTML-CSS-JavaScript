@@ -1,103 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Smooch+Sans:wght@100..900&display=swap');
-
-*{
-    background-color: antiquewhite;
-    margin: .5%;
-}
-h1{
-    text-align: center;
-    border:0.5px solid ;
-    border-radius: 20px;
-    background-color: aliceblue;
-    margin-bottom: 20px;
-    font-family: "Dancing Script", cursive;
-    font-size: 60px;
-}
-
-p{
-    margin-bottom: 20px;
-    text-indent: 40px;
-    line-height: 1;
-    font-family: "Smooch Sans", sans-serif;
-    font-weight:bold;
-    font-size: 30px;
-}
-
-#fundo-teste{
-    height: 400px;
-    background: url(../img/pexels-alinaskazka-28882396.jpg) center gray no-repeat;
-    background-size: cover;
-    margin-bottom: 50px;
-    border-radius:15px;
-}
-
-footer{
-    margin-top: 40px;
-}
-
-footer a{
-    margin-left: 45%;
+div{
     background-color: black;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    text-decoration: none;
+    display:inline-block;
+    height: 60px;
+    position: relative;
+    top: 30px;
+
 }
 
-footer a:hover{
+a{
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px 20px 30px;
+
+}
+
+a:hover{
     background-color: gray;
+    color: black;
 }
 
-footer a#principal{
-    margin-left: 40%;
-    background-color: black;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
-footer a#principal:hover{
-    background-color: gray;
-}
-
-footer a.botao1{
-    background-color: rgb(164, 3, 3);
-    margin-left: 3%;
-    border: 3px solid black;
-}
-
-footer a.botao1:hover{
-    background-color: red;
-    padding: 25px;
-    border: 5px solid black;
-}
-
-a#l1{
-    text-decoration: none;
-    background-color: rgb(1, 92, 1);
-    color: white;
-    padding: 10px;
-    border: 4px solid yellow;
-}
-
-a#l1:hover{
-    background: rgb(2, 207, 2);
-    border-color: rgb(174, 174, 3);
-    padding: 15px;
-}
-
-a#l2{
-    border:  5px double blue;
-    padding: 10px;
-    text-decoration: none; 
-    font-weight: bold;
-    background-color: white;
-}
-
-a#l2:hover{
-    padding: 8px;
-    background: blue;
-    color: white;
-    font-weight: normal;
+a.l1{
+    display:inline-block;
+    
 }
