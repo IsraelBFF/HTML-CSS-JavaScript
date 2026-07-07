@@ -159,8 +159,21 @@ const restaurant = {
 // const restaurantCopy = { ...restaurant }; // desestrutura todas as chaves do objeto "restaurant"
 // console.log(restaurantCopy);
 
-// restaurantCopy.fundation = 1990; 
+// restaurantCopy.fundation = 1990;
 
 // console.log(restaurant);
 // console.log(restaurantCopy);
 //-------------------------------------------------------
+
+// ##=== Rest Pattern and Parameters ===## //
+// Utilizado para juntar todos os elementos separados em um única array
+// function add(...numbers) {
+//   let sum = 0;
+//   for (let a = 0; a < numbers.length; a++) {
+//     sum += numbers[a];
+//   }
+
+//   console.log(sum);
+// }
+
+// add(1, 2, 3);
