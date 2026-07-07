@@ -188,3 +188,7 @@ const restaurant = {
 // Verificar a existência de um objeto
 // const value = 0 && 12 && 123;
 // console.log(value);
+//-------------------------------------------------------
+
+// ##=== The Nullish Coalescing Operator (??) ===## //
+// Operador semelhante ao OR, mas não considera "0" e "" como valores falsos.
