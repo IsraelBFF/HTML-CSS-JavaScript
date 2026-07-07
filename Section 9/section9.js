@@ -177,3 +177,14 @@ const restaurant = {
 // }
 
 // add(1, 2, 3);
+//-------------------------------------------------------
+
+// ##=== Short-circuiting (&& and ||) ===## //
+// OR => entra em curto-circuito no primeiro valor verdadeiro e o retorna
+// Definir valores padrões
+// const name = prompt("Digite seu nome") || "Israel";
+// console.log(name);
+// AND => entra em curto-circuito no primeiro valor falso e o retorna
+// Verificar a existência de um objeto
+// const value = 0 && 12 && 123;
+// console.log(value);
