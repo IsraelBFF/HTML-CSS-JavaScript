@@ -192,3 +192,9 @@ const restaurant = {
 
 // ##=== The Nullish Coalescing Operator (??) ===## //
 // Operador semelhante ao OR, mas não considera "0" e "" como valores falsos.
+//-------------------------------------------------------
+
+// ##=== Logical Assignments Operators ===## //
+// x ||= y <=> x = x || y
+// x &&= y <=> x = x && y
+// x ??= y <=> x = x ?? y
