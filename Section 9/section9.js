@@ -31,6 +31,12 @@ const restaurant = {
       `Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to ${location} at ${time}.`,
     );
   },
+
+  orderPasta: function (ing1, ing2, ing3) {
+    console.log(
+      `Aqui está seu delicioso macarrão feito com: ${ing1}, ${ing2} e ${ing3}!`,
+    );
+  },
 };
 
 // ##=== DESTRUCTURING ARRAYS  ===## //
@@ -102,7 +108,6 @@ const restaurant = {
 // console.log(o, c);
 //-------------------------------------------------------
 
-
 // === Parameters === //
 // orderDelivery: function (obj) {
 //     console.log(obj);
@@ -124,4 +129,38 @@ const restaurant = {
 //   starterIndex: 2,
 //   mainIndex: 1,
 // });
+//-------------------------------------------------------
+
+// ##=== Spread operator (...)===## // => separa cada elemento por vírgula, logo só pode ser usado em arrays e funções
+// const arr = [1, 2, 3];
+// console.log(arr) => [1,2,3]
+// console.log(...arr);  => 1, 2, 3
+//-------------------------------------------------------
+
+// === Join 2 arrays === //
+// const menuMainCopy = [...restaurant.mainMenu];
+// const menu = [...menuMainCopy, ...restaurant.starterMenu];
+// console.log(menu);
+//-------------------------------------------------------
+
+// Iterables = arrays, strings, sets, maps (NOT objects!!)
+
+// Functional example
+// const ingredients = [
+//   prompt("Sabor 1: "),
+//   prompt("Sabor 2: "),
+//   prompt("Sabor 3: "),
+// ];
+
+// restaurant.orderPasta(...ingredients);
+//-------------------------------------------------------
+
+// === Objects === //
+// const restaurantCopy = { ...restaurant }; // desestrutura todas as chaves do objeto "restaurant"
+// console.log(restaurantCopy);
+
+// restaurantCopy.fundation = 1990; 
+
+// console.log(restaurant);
+// console.log(restaurantCopy);
 //-------------------------------------------------------
